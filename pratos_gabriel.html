@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aifudi</title>
+</head>
+
+<body>
+    <script>
+        let prato = prompt("Qual prato você deseja? Entre: pizza, hamburguer, sushi e salada").toUpperCase();
+
+        switch (prato) {
+            case "PIZZA":
+                document.write("A pizza está a caminho!");
+                break;
+            case "HAMBURGUER":
+                document.write("O hamburguer está a caminho!");
+                break;
+            case "SUSHI":
+                document.write("O sushi está a caminho!");
+                break;
+            case "SALADA":
+                document.write("A salada está a caminho!");
+                break;
+            default:
+                document.write("Essa opção de prato não é válida em nosso cardápio!");
+                break;
+
+        }
+    </script>
+</body>
+
+</html>
